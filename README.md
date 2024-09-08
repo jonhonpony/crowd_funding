@@ -7,7 +7,7 @@ Proje Yapısı
 Bu proje, Rust ve Stellar blok zinciri kullanılarak geliştirilmiş bir fon toplama (crowdfunding) uygulamasıdır. Soroban akıllı sözleşme platformunu kullanarak fon toplama kampanyalarını yönetir ve yürütür. Uygulama, hem backend hem de frontend bileşenlerini içerir.
 
 proje mimarisi: 
-
+```text
 .
 ├── .gitignore
 ├── .vscode/
@@ -35,7 +35,7 @@ proje mimarisi:
 │   ├── debug/
 │   ├── release/
 │   └── wasm32-unknown-unknown/
-
+```
 
 # Backend (Rust)
 
@@ -51,7 +51,7 @@ Proje Oluşturma: Kullanıcılar, index.html dosyasındaki bir form aracılığ�
 Fon Transferi: Kullanıcılar projelere fon transferi yapabilir. Bu işlemin mantığı da app.js dosyasında ele alınmıştır.
 Bağımlılıklar
 #Rust Bağımlılıkları
-
+y
 soroban-sdk: Soroban akıllı sözleşmeleri ile etkileşim kurmak için kullanılır.
 warp: HTTP sunucusunu oluşturmak için kullanılan bir web framework'ü.
 serde ve serde_json: JSON verilerini serileştirmek ve seriden çıkarmak için kullanılır.
