@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1>Project List</h1>
+    </header>
+    <main class="main">
+        <button onclick="getProjects()">Load Projects</button>
+        <div id="project-list"></div>
+        <h2>Create New Project</h2>
+        <form id="create-project-form">
+            <input type="text" id="project-name" placeholder="Project Name" required>
+            <input type="text" id="project-owner" placeholder="Owner" required>
+            <input type="number" id="target-amount" placeholder="Target Amount" required>
+            <button type="submit">Create Project</button>
+        </form>
+        <h2>Transfer Funds</h2>
+        <form id="transfer-funds-form">
+            <input type="text" id="transfer-project-name" placeholder="Project Name" required>
+            <button type="submit">Transfer Funds</button>
+        </form>
+    </main>
+</body>
+</html>
